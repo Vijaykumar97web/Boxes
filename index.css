@@ -1,0 +1,76 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.box1 {
+  background-color: #fbbf24;
+  min-height: 90px;
+  min-width: 100px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  background-color: #38bdf8;
+  min-height: 150px;
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+.message {
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box3 {
+  background-color: #ec4899;
+  min-height: 250px;
+  min-width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-container {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .box1 {
+    margin: 10px;
+  }
+  .box2 {
+    margin: 10px;
+  }
+  .box3 {
+    margin: 10px;
+  }
+}
